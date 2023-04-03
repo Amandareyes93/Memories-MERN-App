@@ -26,7 +26,7 @@ const Form = ({ currentId, setCurrentId }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    debugger;
+  
     if (currentId) {
       dispatch(updatePost(currentId, postData));
     } else {
